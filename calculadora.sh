@@ -8,4 +8,4 @@ sudo apt install python3
 sudo apt install python3-pip
 sudo apt install pipx
 
-python3 /home/marreco/modulo1/python/script_calculadora.py
+python3 /script_calculadora.py
