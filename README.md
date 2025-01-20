@@ -8,12 +8,5 @@ Bem vindo(a)! Siga as instruções para executar a calculadora:
 
 3. Para executar a calculadora, dê o comando "./calculadora.sh". É fundamental que, ao executar o comando, esteja no diretório do arquivo .sh. Utilize, por exemplo, o comando "cd /directory/of/your/file", substituindo pelo real caminho até o diretório onde seu arquivo está.
 
-Executable Python Calculator - Shell Script
-
-Welcome! Follow the instructions to execute the calculator:
-
-1. Download both files 'calculadora.sh' and 'script_calculadora.py';
-
-2. Edit the path, inside the .sh file, to the Python file, so when the Shell Script runs, the .py file can be found. Eg.: both files were saved in "Downloads" folder. Line 11 should be edited to "/home/user/downloads/script_calculadora.py". Save it.
-
-3. To execute the calculator, run the command "./calculadora.sh". Make sure that when you run the command, you're in the .sh file's directory. Use, for example, the "cd /directory/of/your/file", replacing the example with the real directory path of your file.
+4. O código da calculadora é iniciado com (1) a definição de duas variáveis, num1 e num2, a serem definidas pelo usuário. As variáveis são obtidas em 'float', ponto flutuante. 
+Então, (2) é solicitada a operação desejada pelo usuário, podendo escolher entre adição, subtração, multiplicação e divisão, assim como a opção de sair. As opções podem ser escolhidas por texto ou número (apresentadas via função 'print' ao usuário). Caso haja erro de digitação, será solicitada novamente a operação ao usuário. Essa estrutura é feita com o laço de repetição 'if/else', permitindo a realização de mais de uma operação sem que o programa precise ser iniciado novamente.
