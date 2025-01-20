@@ -8,7 +8,6 @@ Bem vindo(a)! Siga as instruções para executar a calculadora:
 
 3. Para executar a calculadora, dê o comando "./calculadora.sh". É fundamental que, ao executar o comando, esteja no diretório do arquivo .sh. Utilize, por exemplo, o comando "cd /directory/of/your/file", substituindo pelo real caminho até o diretório onde seu arquivo está.
 
-###################################################
 Executable Python Calculator - Shell Script
 
 Welcome! Follow the instructions to execute the calculator:
